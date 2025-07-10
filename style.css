@@ -1,0 +1,352 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#container{
+      width: 100%;
+}
+#wrapper{
+    width: 100%;
+}
+#header{
+    position: sticky;
+    top: 0;left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #7C0716;
+    color: white;
+    z-index: 3;
+}
+.header-left{
+    float: left;
+}
+.header-left img{
+    margin: 6px 8px 9px 9px;
+}
+.header-left p{
+   float: right;
+   letter-spacing: 1px;
+   margin-top: 17px;
+}
+
+.header-right{
+    float: right;
+    color: white;
+}
+.header-right ul{
+    display: flex;
+    list-style-type: none;
+    margin: 18px 110px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header-right ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.header-right button{
+    margin-top: -38px;
+    margin-right: 23px;
+    float: right;
+    padding: 4px 2px;
+    background-color: white;
+    color: #7C0716;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+#slider img{
+    height: 480px;
+    width: 100%;
+    position: relative;
+}
+.slider-content{
+    width: 45%;
+    height: 173px;
+    background-color: rgb(255, 255, 255,0.8);
+    position: absolute;
+    top: 259px;
+    left: 138px;
+}
+
+.slider-content span{
+    color: #333333;
+    display: block;
+    font-size: 29px;
+    padding: 16px;
+    font-weight: 600;
+    margin: 18px;
+}
+.slider-content button{
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+    background-color: #7C0716;
+    padding: 8px;
+    font-size: 11px;
+    border: none;
+    margin-left: 31px;
+}
+
+#slider-pages{
+     margin-top: 8px;
+    margin-left: 580px;
+}
+#content span{
+    margin-left: 550px;
+    color: #7C0716;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3.5;
+}
+#flex-content{
+    width: 80%;
+    margin: auto;
+   
+    
+}
+.flex-items{
+   width: 30%;
+   display: inline-block;
+   padding: 35px;
+}
+.flex-items img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-left: 58px;
+}
+.flex-items span{
+    display: block;
+    color: #7C0716;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 11px;
+}
+.flex-items p{
+    text-align: center;
+    color: #1E1E1E;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.flex-items button{
+    border: none;
+    padding: 8px;
+    color: white;
+    background-color: rgb(124, 7, 22);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 55px;
+}
+/* #loader{
+    height: 300px;
+    background-color: grey;
+} */
+#overlap-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.overlap-content-left img{
+      width: 100%;
+      float: left;
+      height: 400px;
+      position: relative;
+    
+}
+.pink-overlap{
+    position: absolute;
+    background-color: rgb(124, 7, 22,0.7);
+    width: 40%;
+    height: 400px;
+    
+}
+.pink-overlap p{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    padding: 25px;
+    margin-top: 25px;
+    margin-left: 15px;
+    line-height: 1.5;
+}
+.pink-overlap p mark{
+    color: #7C0716;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+.overlap-content-right{
+       float: right;
+       width: 60%;
+       background-color: white;
+       font-size: 22px;
+       line-height: 1.5;
+       z-index: 2;margin: 160px -50px;
+       height: 350px;
+       padding: 30px;
+       text-align: justify;
+       letter-spacing: 1px;
+       color: #1E1E1E;
+       border-right: 17px solid #6E0641;
+}
+#box img{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    
+}
+.gradient{
+    background-image: linear-gradient( to right, #2D0F2D, #701415);
+    opacity: 0.9;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+.gradient h3{
+   text-align: center;
+   padding: 15px 0px 0px 0px;
+}
+.gradient p{
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 100;
+    font-size: 12px;
+}
+.boxes{
+    display: flex;
+    padding: 35px;
+    width: 85%;
+    margin: auto;
+}
+.boxx{
+    padding: 15px;
+    border: 2px solid white;
+    line-height: 1.5;
+    height: 200px;
+    margin: 15px;
+    font-size: 13px;
+    
+}
+.boxx p{
+    text-align: left;
+}
+.nurse-content{
+    width: 25%;
+    height: 50px;
+  
+    float: right;
+}
+.nurse-content span{
+    float: right;
+}
+.nurse-content h4{
+    float: right;
+}
+#footer{
+    width: 100%;
+    height: 315px;
+    background-color: #121212;
+    color: white;
+    margin-top: 9px;
+}
+.footer-above{
+    display: flex;
+    margin-bottom: 45px;
+}
+.left1{
+    width: 37%;
+}
+.left1 span a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: block;
+    color: white;
+    margin-bottom: 1px;
+}
+.left1 span{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+.left2{
+    width: 20%;
+
+}
+.right1{
+   width: 15%;
+}
+.right2{
+    width: 25%;
+}
+.footer{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.footer p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.footer a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.footer p img{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.right2 span{
+    display: flex;
+}
+.footer-below{
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid white;
+}
+.footer-below span{
+    display: flex;
+    width: 33%;
+    border-right: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 70px;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 12PX;
+    
+}
+.footer-below span img{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: WHITE;
+}
+.footer-below span img:hover{
+      background-color: #6E0641;
+      cursor: pointer;
+}
+    
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+
+} 
